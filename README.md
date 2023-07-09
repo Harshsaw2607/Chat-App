@@ -12,7 +12,7 @@ This is file sharing app that allows users to upload and share files with others
 - Multer for handling file uploads
 - HTML, CSS, and JavaScript for the front-end interface
 ## Installation and Setup
-1. Clone the repository: `git clone https://github.com/your-username/file-sharing-website.git`
+1. Clone the repository: `git clone https://github.com/Harshsaw2607/Chat-App.git`
 2. Install dependencies: `npm install`
 3. Do not forget to rename `.env.example` into `.env` an put all creadentials.
 4. Access the website in your browser at `http://localhost:8000`

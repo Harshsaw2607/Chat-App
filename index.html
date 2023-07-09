@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/simplebar@5.3.6/dist/simplebar.min.css" /> -->
+
+    <link rel="stylesheet" href="style.css">
+    <title>Real Time Chat</title>
+</head>
+<body>
+    <section class="chat__section">
+        <span class="brand">
+            <img src="Chat.png" height="40px" width="40px" alt="">
+            <h2>Real Time</h2>
+            <div class="typing-indicator"></div>
+            </div>
+
+        </span>
+        <!-- <div class="sidebar">
+            <h3>Members</h3>
+            <ul id="memberList"></ul>
+          </div> -->
+        <div class="messageArea">
+            
+            <!-- <div class="Incoming Message">
+                <h4>Harsh</h4>
+                <p>Hello how are you got to not to sort of
+                    hi hilarious gigantic India Australia Sakchi
+                    Jamshedpur Yuganda Wakanda Jamco Highland Thailand Fantastic 
+                </p>
+            </div>
+            <div class="Outgoing Message">
+                <h4>Anuj</h4>
+                <p>Fine!  Hello how are you got to not to sort of
+                    hi hilarious gigantic India Australia Sakchi
+                    Jamshedpur Yuganda Wakanda Jamco Highland Thailand Fantastic </p>
+            </div> -->
+            
+        </div>
+        <div class="input-container">
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message"></textarea>
+            <button id="sendButton">Send</button>
+        </div>
+        <!-- <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message"></textarea>
+        </div> -->
+    </section>
+
+
+    <!-- <script src="https://unpkg.com/simplebar@5.3.6/dist/simplebar.min.js"></script> -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
